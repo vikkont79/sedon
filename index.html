@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sedona-best-resort</title>
-    <link href="styles/outline.css" rel="stylesheet">
-    <link href="styles/outline-settings.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css"Ю
+    <!--<link href="styles/outline.css" rel="stylesheet">
+    <link href="styles/outline-settings.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="main-header">
@@ -40,7 +40,7 @@
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">Хочу сюда!</a>
+              <a class="navigation-link button" href="#">Хочу сюда!</a>
             </li>
           </ul>
         </div>
@@ -48,10 +48,15 @@
     </header>
 
     <main class="main-index">
-      <section class="welcome">
+      <section class="wellcome">
         <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
-        <img class="background" src="img/index-background.jpg" alt="Панорама курорта Седона" width="1200" height="485">
-        <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="wellcome-image">
+          <img src="img/Vector-1.svg" alt="Панорама курорта Седона" width="188" height="45">
+          <img src="img/Vector.svg" alt="Панорама курорта Седона" width="188" height="45">
+          <img src="img/Vector-2.svg" alt="Панорама курорта Седона" width="457" height="213">
+        </p>
+        <p class="wellcome-bottom visually-hidden">Зубы</p>
+        <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
 
@@ -120,11 +125,11 @@
 
       <section class="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!></p>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <p class="subscribe-email">
+          <p class="subscribe-info">
             <label class="visually-hidden" for="subscribe-email">Email</label>
-            <input class="field"  type="email" name="subscribe-email" id="subscribe-email" placeholder="Ваш e-mail"  required>
+            <input class="subscribe-field"  type="email" name="subscribe-email" id="subscribe-email" placeholder="Ваш e-mail"  required>
           </p>
           <button class="button subscribe-button" type="submit">Подписаться</button>
         </form>
