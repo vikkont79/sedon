@@ -16,7 +16,8 @@ body {
   font-family: "PT Sans", sans-serif;
   background-color: #FFF;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.20);
-}
+  margin: 0;
+  }
 .button {
   font-family: inherit;
   font-weight: 700;
@@ -26,11 +27,39 @@ body {
   text-transform: uppercase;
 }
 .main-header {
+  width: 1060px;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 70px;
   color: black;
 }
 .navigation {
   display: flex;
+}
+.main-header-logo {
+  width: 139px;
+  height: 70px;
+  margin-right: 47px;
+}
+.main-navigation {
+  width: 345px;
+  display: flex;
+  gap: 34px;
+  align-items: center;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.user-navigation {
+  width: 264px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 299px;
 }
 .navigation-link {
 font-size: 20px;
@@ -40,38 +69,31 @@ text-align: center;
 text-decoration: none;
 color: inherit;
 }
+.main-index {
+  width: 1200px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
 .wellcome-image {
   width: 1200px;
   height: 485px;
-  background-image: url(../img/index-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.wellcome-bottom {
-  width: 1200px;
-  height: 57px;
-  background-image: url(../img/divider.svg);
-  background-repeat: no-repeat;
-  background-size:  100% auto;
-  background-position: bottom;
-}
+  background-image: url(../img/divider.svg), url(../img/index-background.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, cover;
+  background-position: bottom, center;
+  }
 .wellcome-image img {
   display: block;
+  margin: 0 auto;
   }
-.wellcome h2 {
+.advantages h2 {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
 }
-.wellcome p {
-  font-size: 22px;
-  line-height: 36px;
-  text-align: center;
-}
-.advantages h2 {
+.advantages h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -79,6 +101,11 @@ color: inherit;
   text-transform: uppercase;
 }
 .advantages p {
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+}
+.advantages-item p {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -96,8 +123,18 @@ color: inherit;
   background-color: #83B3D3;
   color: #FFF;
 }
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 .description-number {
   text-transform: uppercase;
+}
+.advantages-description {
+  padding: 0 90px;
 }
 .hotels h2 {
   font-size: 30px;
@@ -112,6 +149,9 @@ color: inherit;
   text-align: center;
 }
 .hotel-button {
+  display: block;
+  width: 575px;
+  margin: 0 312px;
   border-radius: 10px;
   background-color: #756257;
   font-size: 20px;
@@ -136,6 +176,8 @@ color: inherit;
 }
 .subscribe-form {
   display: flex;
+  width: 800px;
+  margin: 0 200px;
 }
 .subscribe-field {
   width: 600px;
@@ -155,16 +197,30 @@ color: inherit;
   line-height: 26px;
 }
 .main-footer {
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
+}
+.footer-social-list {
+  width: 107px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
 }
 .footer-contacts-phone {
+  width: 720px;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+}
+.htmlacademy-link {
+  width: 115px;
 }
 
 
